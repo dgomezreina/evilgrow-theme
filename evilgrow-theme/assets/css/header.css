@@ -1,0 +1,27 @@
+#masthead{
+    height: 150px !important;
+    overflow: hidden;
+}
+.site-primary-header-wrap{
+    top: 50%;
+    position: relative;
+    transform: translateY(-50%)
+}
+.ast-primary-header-bar{
+    height: 150px !important;
+}
+
+.main-header-menu .menu-item{
+    height: 50px;
+    transition: 0s;
+}
+.main-header-menu .menu-item .menu-link{
+    color: white;
+    transition: 0s;
+}
+.main-header-menu .menu-item:hover{
+    background-color: white;
+}
+.main-header-menu .menu-item:hover > .menu-link, .main-header-menu .menu-item .sub-menu .menu-link{
+    color: black !important;
+}
