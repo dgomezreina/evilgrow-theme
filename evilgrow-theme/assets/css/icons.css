@@ -1,4 +1,5 @@
-@import url("../fontawesome/css/all.min.css");
+@import url("../fontawesome/css/regular.css");
+@import url("../fontawesome/css/solid.css");
 
 .icon::before {
   display: inline-block;
@@ -8,17 +9,23 @@
 
 
 /* NAVIGATION ICONS */
-.nav-icon a > #text{
-  font-size: 0;
+.fa-regular a::before{
+  font: var(--fa-font-regular)
+}
+.fa-solid a::before{
+  font: var(--fa-font-solid)
 }
 .nav-icon a::before{
-  content: '';
   display: inline-block;
   text-rendering: auto;
   -webkit-font-smoothing: antialiased;
 }
 
-.user a::before {
-    font: var(--fa-font-regular);
-    content: "\f007";
+
+.fa-user a::before{
+  content: "\f007";
+}
+
+.fa-cart a::before{
+  content: "\f07a";
 }

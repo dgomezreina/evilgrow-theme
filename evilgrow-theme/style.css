@@ -10,9 +10,11 @@ Text Domain: evilgrow
 Template: astra
 */
 
+@import url("assets/css/load.css");
 @import url("assets/css/icons.css");
 @import url("assets/css/header.css");
-@import url("assets/css/login.css");
+
+
 
 #page{
     position: relative;

@@ -28,6 +28,10 @@
 
 
 
-nav > .icon{
-    
+.nav-icon:hover{
+    background-color: transparent !important;
+    color: white !important;
+}
+.nav-icon:hover > a::before {
+    color: white !important;
 }
