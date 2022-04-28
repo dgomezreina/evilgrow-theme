@@ -1,12 +1,24 @@
 @import url("../fontawesome/css/all.min.css");
 
 .icon::before {
-    display: inline-block;
-    text-rendering: auto;
-    -webkit-font-smoothing: antialiased;
-  }
+  display: inline-block;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+}
 
-.user::before {
+
+/* NAVIGATION ICONS */
+.nav-icon a > #text{
+  font-size: 0;
+}
+.nav-icon a::before{
+  content: '';
+  display: inline-block;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+}
+
+.user a::before {
     font: var(--fa-font-regular);
     content: "\f007";
 }
