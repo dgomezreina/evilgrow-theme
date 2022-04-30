@@ -13,10 +13,10 @@ $(document).ready(function($){
     navIcon.text(function (index, oldText) {
         return oldText.replace(/\s+/g, '');
     });
-    // navIcon.hover(function(){
-    //     navIcon.parent().toggleClass('fa-regular')
-    //     navIcon.parent().toggleClass('fa-solid')
-    // })
+    navIcon.hover(function(){
+        $(this).parent().toggleClass('fa-regular')
+        $(this).parent().toggleClass('fa-solid')
+    })
 })
 
 

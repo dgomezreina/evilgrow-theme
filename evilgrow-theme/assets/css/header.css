@@ -16,7 +16,7 @@
     transition: 0s;
 }
 .main-header-menu .menu-item .menu-link{
-    color: white;
+    color: black;
     transition: 0s;
 }
 .main-header-menu .menu-item:hover{
@@ -24,14 +24,4 @@
 }
 .main-header-menu .menu-item:hover > .menu-link, .main-header-menu .menu-item .sub-menu .menu-link{
     color: black !important;
-}
-
-
-
-.nav-icon:hover{
-    background-color: transparent !important;
-    color: white !important;
-}
-.nav-icon:hover > a::before {
-    color: white !important;
 }
