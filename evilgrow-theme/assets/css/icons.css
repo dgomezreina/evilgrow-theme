@@ -25,7 +25,12 @@
 .fa-user a::before{
   content: "\f007";
 }
-
 .fa-cart a::before{
   content: "\f07a";
+}
+.fa-globe a::before{
+  content: "\f0ac";
+}
+.fa-insta a::before{
+  content: "\f16d";
 }
