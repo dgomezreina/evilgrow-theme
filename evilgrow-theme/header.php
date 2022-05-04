@@ -23,7 +23,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="profile" href="https://gmpg.org/xfn/11">
 <link rel="preload" href="<?= get_stylesheet_directory_uri(); ?>/assets/fonts/Aleo/Aleo-Bold.ttf" as="font" type="font/ttf" crossorigin>
-<link rel="preload" href="<?= get_stylesheet_directory_uri(); ?>/assets/fonts/Poppins/.ttf" as="font" type="font/ttf" crossorigin>
+<link rel="preload" href="<?= get_stylesheet_directory_uri(); ?>/assets/fonts/Poppins/Poppins-Bold.ttf" as="font" type="font/ttf" crossorigin>
 <link rel="preload" href="<?= get_stylesheet_directory_uri(); ?>/assets/fontawesome/webfonts/fa-regular-400.ttf" as="font" type="font/ttf" crossorigin>
 <link rel="preload" href="<?= get_stylesheet_directory_uri(); ?>/assets/fontawesome/webfonts/fa-solid-900.ttf" as="font" type="font/ttf" crossorigin>
 

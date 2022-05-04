@@ -1,13 +1,6 @@
 var $ = jQuery.noConflict();
 
 
-$(window).on('load', function () {
-
-
-});
-
-
-
 $(document).ready(function($){
     const navIcon = $(".nav-icon a")
     navIcon.text(function (index, oldText) {
