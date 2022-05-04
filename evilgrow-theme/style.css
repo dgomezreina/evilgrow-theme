@@ -11,10 +11,24 @@ Template: astra
 */
 
 @import url("assets/css/load.css");
+@import url("assets/css/fonts.css");
 @import url("assets/css/icons.css");
 @import url("assets/css/header.css");
 
+body{
+    font-family: Aleo, 'Times New Roman', Times, serif !important;
+}
+h1, h2, h3, h4, h5, h6{
+    font-family: Poppins !important;
+    font-weight: bold !important;
+}
 
+
+.site-title a{
+    font-family: Aleo, 'Times New Roman', Times, serif !important;
+    font-weight: bold !important;
+
+}
 
 #page{
     position: relative;
