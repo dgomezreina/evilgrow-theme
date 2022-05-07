@@ -18,17 +18,26 @@ if ( ! defined( 'ABSPATH' ) ) {
 <?php astra_html_before(); ?>
 <html <?php language_attributes(); ?>>
 <head>
-<?php astra_head_top(); ?>
-<meta charset="<?php bloginfo( 'charset' ); ?>">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="profile" href="https://gmpg.org/xfn/11">
-<link rel="preload" href="<?= get_stylesheet_directory_uri(); ?>/assets/fonts/Aleo/Aleo-Bold.ttf" as="font" type="font/ttf" crossorigin>
-<link rel="preload" href="<?= get_stylesheet_directory_uri(); ?>/assets/fonts/Poppins/Poppins-Bold.ttf" as="font" type="font/ttf" crossorigin>
-<link rel="preload" href="<?= get_stylesheet_directory_uri(); ?>/assets/fontawesome/webfonts/fa-regular-400.ttf" as="font" type="font/ttf" crossorigin>
-<link rel="preload" href="<?= get_stylesheet_directory_uri(); ?>/assets/fontawesome/webfonts/fa-solid-900.ttf" as="font" type="font/ttf" crossorigin>
+	<?php astra_head_top(); ?>
+	<meta charset="<?php bloginfo( 'charset' ); ?>">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="profile" href="https://gmpg.org/xfn/11">
+	<link rel="preload" href="<?= get_stylesheet_directory_uri(); ?>/assets/fonts/Aleo/Aleo-Bold.ttf" as="font" type="font/ttf" crossorigin>
+	<link rel="preload" href="<?= get_stylesheet_directory_uri(); ?>/assets/fonts/Poppins/Poppins-Bold.ttf" as="font" type="font/ttf" crossorigin>
+	<link rel="preload" href="<?= get_stylesheet_directory_uri(); ?>/assets/fontawesome/webfonts/fa-regular-400.ttf" as="font" type="font/ttf" crossorigin>
+	<link rel="preload" href="<?= get_stylesheet_directory_uri(); ?>/assets/fontawesome/webfonts/fa-solid-900.ttf" as="font" type="font/ttf" crossorigin>
 
-<?php wp_head(); ?>
-<?php astra_head_bottom(); ?>
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=G-NN4MHHTCDN"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag(){dataLayer.push(arguments);}
+		gtag('js', new Date());
+		gtag('config', 'G-NN4MHHTCDN');
+	</script>
+
+	<?php wp_head(); ?>
+	<?php astra_head_bottom(); ?>
 </head>
 
 <body <?php astra_schema_body(); ?> <?php body_class(); ?>>
